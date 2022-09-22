@@ -1,0 +1,60 @@
+.top {
+  width: 100%;
+  height: 45vh;
+}
+
+.top-wrapper {
+  padding: 12px;
+}
+
+.top-main {
+  width: 100%;
+  height: 100px;
+  background: rgba(0,0,0,.2);
+  margin-bottom: 10px;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-dollar-image {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.top-main-wrapper {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.top-main-wrapper-total {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.top-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.top-items-item {
+  background: rgba(0,0,0,.2);
+  width: 41%;
+  height: 15px;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-left: 5px solid rgb(0, 229, 0);
+}
+
+.top-items-item p {
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 700;
+}
